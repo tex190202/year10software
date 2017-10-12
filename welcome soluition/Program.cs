@@ -4,16 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWorld
+namespace welcome_soluition
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HelloWorld");
-            Console.ReadLine();
-            Console.ForegroundColor = ConsoleColor.Red;
-        }
 
+
+
+
+            Console.Write("enter your name: ");
+           string name = Console.ReadLine();
+           Console.WriteLine("welcome tex"+name);
+
+
+
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
+        }
     }
 }
