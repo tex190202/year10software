@@ -16,10 +16,7 @@ namespace welcome_soluition
 
             Console.Write("enter your name: ");
            string name = Console.ReadLine();
-           Console.WriteLine("welcome tex"+name);
-
-
-
+           Console.WriteLine("welcome tex"+name)
             Console.ReadLine();
 
 
